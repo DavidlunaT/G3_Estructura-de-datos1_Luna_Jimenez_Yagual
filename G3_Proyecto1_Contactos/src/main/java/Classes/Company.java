@@ -19,6 +19,7 @@ public class Company extends Contact{
 
     public Company(String name, List<Phone> phones) {
         super(name, phones);
+        this.department = department;
     }
 
     public Company(List<Phone> phones) {

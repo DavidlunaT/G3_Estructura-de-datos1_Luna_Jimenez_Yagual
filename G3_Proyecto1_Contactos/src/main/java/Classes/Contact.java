@@ -32,17 +32,16 @@ public abstract class Contact implements Serializable{
     protected List<SpecialDate> specialDates;
     protected String Photo;
 
-    public Contact(String name, String urlProfilePic, List<String> images, List<Phone> phones, List<Address> addresses, List<Email> emails, List<SpecialDate> specialDates, String Photo) {
-        this.name = name;
-        this.urlProfilePic = urlProfilePic;
-        this.images = images;
+    public Contact(List<Phone> phones) {
         this.phones = phones;
-        this.addresses = addresses;
-        this.emails = emails;
-        this.specialDates = specialDates;
-        this.Photo = Photo;
     }
 
+    public Contact(String name, List<Phone> phones) {
+        this.name = name;
+        this.phones = phones;
+    }
+    
+    
     public String getName() {
         return name;
     }
