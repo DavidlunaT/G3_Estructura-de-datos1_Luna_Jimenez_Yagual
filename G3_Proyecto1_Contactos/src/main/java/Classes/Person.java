@@ -5,10 +5,7 @@
 package Classes;
 
 import Interfaces.List;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.ObjectInputStream;
+
 
 
 
@@ -16,7 +13,7 @@ import java.io.ObjectInputStream;
  *
  * @author oweny
  */
-public class Person extends Contact{ //Deberia implementar la interfaz Usuario
+public class Person extends Contact{ 
     
     public String secondName;
     public String lastName;
@@ -25,5 +22,6 @@ public class Person extends Contact{ //Deberia implementar la interfaz Usuario
     public Person(String name, List<Phone> phones) {
         super(name, phones);
     }
+    
     
 }

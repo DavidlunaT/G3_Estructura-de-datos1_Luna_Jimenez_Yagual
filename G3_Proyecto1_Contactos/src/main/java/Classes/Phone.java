@@ -18,6 +18,19 @@ public class Phone {
         
     }
 
+    public String getLabel() {
+        return label;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
+    }
+
+    public void setLabel(String label) {
+        this.label = label;
+    }
+    
+
     public String getNumber() {
         return number;
     }

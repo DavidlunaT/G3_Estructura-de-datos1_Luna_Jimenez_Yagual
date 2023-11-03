@@ -4,15 +4,9 @@
  */
 package Classes;
 
-import DataStructure.ArrayList;
+
 import Interfaces.List;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
+
 
 
  //implementar tda
@@ -21,7 +15,7 @@ import java.io.Serializable;
  *
  * @author oweny
  */
-public abstract class Contact implements Serializable{
+public abstract class Contact {
     
     protected String name;
     protected List<Phone> phones;

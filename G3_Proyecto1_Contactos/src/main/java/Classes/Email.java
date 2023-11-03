@@ -9,20 +9,20 @@ package Classes;
  * @author oweny
  */
 public class Email {
-    public String text;
+    public String emailAddress;
     public String label;
 
-    public Email(String text, String label) {
-        this.text = text;
+    public Email(String emailAddress, String label) {
+        this.emailAddress = emailAddress;
         this.label = label;
     }
 
     public String getText() {
-        return text;
+        return emailAddress;
     }
 
-    public void setText(String text) {
-        this.text = text;
+    public void setText(String emailAddress) {
+        this.emailAddress = emailAddress;
     }
 
     public String getLabel() {
