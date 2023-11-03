@@ -1,8 +1,8 @@
+DataStructure\ArrayList$1.class
+DataStructure\ArrayList.class
 com\mycompany\g3_proyecto1_contactos\App.class
 module-info.class
 com\mycompany\g3_proyecto1_contactos\PrimaryController.class
-com\mycompany\g3_proyecto1_contactos\CustomCircularIterator.class
-com\mycompany\g3_proyecto1_contactos\List.class
-com\mycompany\g3_proyecto1_contactos\ArrayList.class
+DataStructure\CustomCircularIterator.class
+Interfaces\List.class
 com\mycompany\g3_proyecto1_contactos\SecondaryController.class
-com\mycompany\g3_proyecto1_contactos\ArrayList$1.class
