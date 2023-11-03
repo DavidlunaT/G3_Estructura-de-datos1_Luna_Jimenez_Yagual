@@ -50,6 +50,22 @@ public class Company extends Contact{
         this.name = name;
     }
 
+    public String getUrlProfilePic() {
+        return urlProfilePic;
+    }
+
+    public void setUrlProfilePic(String urlProfilePic) {
+        this.urlProfilePic = urlProfilePic;
+    }
+
+    public List<String> getImages() {
+        return images;
+    }
+
+    public void setImages(List<String> images) {
+        this.images = images;
+    }
+
     public List<Phone> getPhones() {
         return phones;
     }
@@ -74,12 +90,12 @@ public class Company extends Contact{
         this.emails = emails;
     }
 
-    public List<SpecialDate> getBirthdays() {
-        return birthdays;
+    public List<SpecialDate> getSpecialDates() {
+        return specialDates;
     }
 
-    public void setBirthdays(List<SpecialDate> birthdays) {
-        this.birthdays = birthdays;
+    public void setSpecialDates(List<SpecialDate> specialDates) {
+        this.specialDates = specialDates;
     }
 
     public String getPhoto() {
@@ -89,6 +105,7 @@ public class Company extends Contact{
     public void setPhoto(String Photo) {
         this.Photo = Photo;
     }
-    
+
+
 
 }
