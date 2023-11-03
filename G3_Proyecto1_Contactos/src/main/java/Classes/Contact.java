@@ -4,6 +4,8 @@
  */
 package Classes;
 
+import DataStructure.ArrayList;
+import Interfaces.List;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -11,9 +13,9 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
-import java.util.ArrayList;
 
-import java.util.List; //implementar tda
+
+ //implementar tda
 
 /**
  *
@@ -22,18 +24,18 @@ import java.util.List; //implementar tda
 public abstract class Contact implements Serializable{
     
     protected String name;
-    protected List<Telephone> phones;
+    protected List<Phone> phones;
     protected List<Address> addresses;
     protected List<Email> emails;
-    protected List<Date> birthdays;
+    protected List<SpecialDate> birthdays;
     protected String Photo;
 
-    public Contact(List<Telephone> phones) {
+    public Contact(List<Phone> phones) {
         this.phones = phones;
         this.name = phones.get(0).getNumber();
     }
 
-    public Contact(String name, List<Telephone> phones) {
+    public Contact(String name, List<Phone> phones) {
         this.name = name;
         this.phones = phones;
     }

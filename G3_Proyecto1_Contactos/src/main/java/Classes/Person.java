@@ -4,12 +4,12 @@
  */
 package Classes;
 
+import Interfaces.List;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.ObjectInputStream;
-import java.util.ArrayList;
-import java.util.List;
+
 
 
 /**
@@ -22,7 +22,7 @@ public class Person extends Contact{ //Deberia implementar la interfaz Usuario
     public String lastName;
     public String secondLastName;
 
-    public Person(String name, List<Telephone> phones) {
+    public Person(String name, List<Phone> phones) {
         super(name, phones);
     }
     

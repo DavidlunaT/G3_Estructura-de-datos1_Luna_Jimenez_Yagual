@@ -4,7 +4,9 @@
  */
 package Classes;
 
-import java.util.List;
+import Interfaces.List;
+
+
 
 /**
  *
@@ -15,11 +17,11 @@ public class Company extends Contact{
     public String department;
     public String website;
 
-    public Company(String name, List<Telephone> phones) {
+    public Company(String name, List<Phone> phones) {
         super(name, phones);
     }
 
-    public Company(List<Telephone> phones) {
+    public Company(List<Phone> phones) {
         super(phones);
     }
 

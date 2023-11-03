@@ -4,10 +4,14 @@
  */
 package Classes;
 
+import DataStructure.ArrayList;
+
 /**
  *
  * @author David
  */
-public class a {
-    
+public class User {
+    private String username;
+    private String password;
+    private ArrayList<Contact> contactos;
 }

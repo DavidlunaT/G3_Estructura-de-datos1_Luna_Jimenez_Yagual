@@ -3,23 +3,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Classes;
-
+import java.time.LocalDate;
 /**
  *
  * @author oweny
  */
-public class Telephone {
-    public String number;
+public class SpecialDate {
+
+    public LocalDate date;
     public String label;
-
-    public Telephone(String number, String label) {
-        this.number = number;
+    
+    public SpecialDate(LocalDate date, String label) {
+        this.date = date;
         this.label = label;
-        
-    }
-
-    public String getNumber() {
-        return number;
-    }
- 
+    }  
+    
 }
